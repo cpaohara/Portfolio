@@ -1,0 +1,77 @@
+body{
+    background-color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1{
+    background-color: blue;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blue;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+    display: inline-block; /*Inline-block makes item sit in middle of page*/
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+p{
+    background-color: lightslategray;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    border-color: lightslategray;
+}
+
+#Education{
+    font-size: medium;
+    /*font-style: oblique;*/
+    background-color: red;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+#Work{
+    font-size: medium;
+    /*font-style: oblique;*/
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+#Personal{
+    font-size: medium;
+    /*font-style: oblique;*/
+    background-color: green;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+/* #ALvl{
+
+}
+
+#UGrad{
+
+}
+
+#Masters{
+
+}
+
+#PersProj{
+
+}
+
+#Published{
+
+} */
