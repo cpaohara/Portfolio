@@ -1,8 +1,10 @@
 body{
-    background-color: lightgray;
+    background-color: whitesmoke; /*#FFF8E7*/
+    color: black;
     text-align: center;
     font-family: sans-serif;
-    margin: 20px;
+    margin-left: 5%; /*margin: 40px;*/
+    margin-right: 5%;
 }
 
 h1{
@@ -20,6 +22,11 @@ h2{
     font-size: 30px;
 }
 
+#entry{
+    text-align: left;
+    font-size: 30px;
+    font-weight: normal;
+}
 
 p{
     background-color: lightslategray;
@@ -29,25 +36,26 @@ p{
     border-color: lightslategray;
 }
 
-#Education{
+/*CSS for tags with respective IDs (used in <span>)*/
+#education{
     font-size: medium;
     /*font-style: oblique;*/
-    background-color: red;
+    background-color: rgb(240, 0, 0);
     border-radius: 5px;
     padding: 3px;
     margin-left: 5px;
 }
 
-#Work{
+#work{
     font-size: medium;
     /*font-style: oblique;*/
-    background-color: yellow;
+    background-color: pink;
     border-radius: 5px;
     padding: 3px;
     margin-left: 5px;
 }
 
-#Personal{
+#personal{
     font-size: medium;
     /*font-style: oblique;*/
     background-color: green;
@@ -56,22 +64,11 @@ p{
     margin-left: 5px;
 }
 
-/* #ALvl{
-
+#published{
+    font-size: medium;
+    /*font-style: oblique;*/
+    background-color: gold;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
 }
-
-#UGrad{
-
-}
-
-#Masters{
-
-}
-
-#PersProj{
-
-}
-
-#Published{
-
-} */
