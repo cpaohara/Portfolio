@@ -1,39 +1,50 @@
 body{
-    background-color: whitesmoke; /*#FFF8E7*/
+    background-color: #f7fcf5; /*#FFF8E7*/
     color: black;
     text-align: center;
-    font-family: sans-serif;
-    margin-left: 5%; /*margin: 40px;*/
-    margin-right: 5%;
+    font-family: sans-serif ;
+    margin-left: 10%; /*margin: 40px;*/
+    margin-right: 10%;
 }
 
 h1{
-    background-color: blue;
+    background-color: #41ab5d;
     border-style: solid;
     border-radius: 10px;
-    border-color: blue;
+    border-color: #41ab5d;
     padding: 20px;
     font-size: 40px;
     color: white;
-    display: inline-block; /*Inline-block makes item sit in middle of page*/
+    /*display: inline-block; /*Inline-block makes item sit in middle of page*/
 }
 
-h2{
+#entryCenter{
     font-size: 30px;
+    border-style: solid;
+    border-radius: 40px;
+    border-color: #a1d99b;
+    background-color: #a1d99b;
+    padding: 5px;
+    display: inline-block;
 }
 
 #entry{
     text-align: left;
     font-size: 30px;
-    font-weight: normal;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #a1d99b;
+    background-color: #a1d99b;
+    padding: 10px;
+    width: fit-content;
 }
 
 p{
-    background-color: lightslategray;
-    border-style: solid;
+    /*background-color: rgb(201, 201, 201); /*lightslategray*/
+    /*border-style: solid;
     border-radius: 10px;
+    border-color: rgb(201, 201, 201);*/
     padding: 20px;
-    border-color: lightslategray;
 }
 
 /*CSS for tags with respective IDs (used in <span>)*/
