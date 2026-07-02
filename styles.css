@@ -2,7 +2,7 @@ body{
     background-color: #f7fcf5; /*#FFF8E7*/
     color: black;
     text-align: center;
-    font-family: sans-serif ;
+    font-family: Georgia;
     margin-left: 10%; /*margin: 40px;*/
     margin-right: 10%;
 }
@@ -44,6 +44,7 @@ p{
     /*border-style: solid;
     border-radius: 10px;
     border-color: rgb(201, 201, 201);*/
+    font-family: Verdana;
     padding: 20px;
 }
 
