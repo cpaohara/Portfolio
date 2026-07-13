@@ -46,6 +46,7 @@ p{
     border-color: rgb(201, 201, 201);*/
     font-family: Verdana;
     padding: 20px;
+    text-align: left;
 }
 
 /*CSS for tags with respective IDs (used in <span>)*/
