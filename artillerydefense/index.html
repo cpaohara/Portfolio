@@ -1,0 +1,30 @@
+<!-- this file is the html file for displaying the canvas, elevation and shell data, and the play and reset buttons -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artillery Defense</title>
+
+    <style>
+        canvas{
+            border: 2px solid black;
+            display: block;
+        }
+    </style>
+
+    <script type="module" src="Game.js"></script>
+
+</head>
+<body>
+    
+    <canvas id="screen" height="500px" width=document.body.clientWidth style="background-color: lightblue;"></canvas>
+    <h1 id="cooldown">Reloaded!</h1>
+    <h1 id="shellSelection">Current Shell: ← Short / [Medium] / Tracer / Long →</h1>
+    <h1 id="elevation">Current Elevation: ↑45°↓</h1>
+    <button type="button" id="start">Start!</button>
+    <button type="button" id="refresh">Reset</button>
+
+</body>
+</html>

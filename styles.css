@@ -49,6 +49,20 @@ p{
     text-align: left;
 }
 
+ul{
+    /*background-color: rgb(201, 201, 201); /*lightslategray*/
+    /*border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(201, 201, 201);*/
+    font-family: Verdana;
+    padding: 20px;
+    text-align: left;
+}
+
+img{
+    width: 60%;
+}
+
 /*CSS for tags with respective IDs (used in <span>)*/
 #education{
     font-size: medium;
@@ -81,6 +95,15 @@ p{
     font-size: medium;
     /*font-style: oblique;*/
     background-color: gold;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+#language{
+    font-size: medium;
+    /*font-style: oblique;*/
+    background-color: orange;
     border-radius: 5px;
     padding: 3px;
     margin-left: 5px;
